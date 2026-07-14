@@ -1,0 +1,11 @@
+# Ignore the real config file
+config.js
+
+# Ignore OS junk
+.DS_Store
+*.log
+
+# Ignore editor folders
+.vscode/
+.idea/
+node_modules/

@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
   "buildCommand": "cp config.example.js config.js && sed -i \"s/PLACEHOLDER_TOKEN/$API_TOKEN/g\" config.js",
   "outputDirectory": "."
 }
